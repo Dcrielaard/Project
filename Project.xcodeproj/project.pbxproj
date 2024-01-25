@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95576BEF2B62D02B00E5344E /* FontHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95576BEE2B62D02B00E5344E /* FontHelper.swift */; };
 		957570812B605462008C1865 /* ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957570802B605462008C1865 /* ProjectApp.swift */; };
 		957570832B605462008C1865 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957570822B605462008C1865 /* ProjectListView.swift */; };
 		957570852B605462008C1865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957570842B605462008C1865 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95576BEE2B62D02B00E5344E /* FontHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontHelper.swift; sourceTree = "<group>"; };
 		9575707D2B605462008C1865 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957570802B605462008C1865 /* ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectApp.swift; sourceTree = "<group>"; };
 		957570822B605462008C1865 /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95576BED2B62D00A00E5344E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				95576BEE2B62D02B00E5344E /* FontHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		957570742B605462008C1865 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 			children = (
 				957570802B605462008C1865 /* ProjectApp.swift */,
 				9575708E2B60554E008C1865 /* Models */,
+				95576BED2B62D00A00E5344E /* Helpers */,
 				957570822B605462008C1865 /* ProjectListView.swift */,
 				957570842B605462008C1865 /* Assets.xcassets */,
 				957570862B605462008C1865 /* Preview Content */,
@@ -152,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				957570922B60561D008C1865 /* ProjectUpdate.swift in Sources */,
+				95576BEF2B62D02B00E5344E /* FontHelper.swift in Sources */,
 				957570832B605462008C1865 /* ProjectListView.swift in Sources */,
 				957570812B605462008C1865 /* ProjectApp.swift in Sources */,
 				957570902B60556C008C1865 /* Project.swift in Sources */,
